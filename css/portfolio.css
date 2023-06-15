@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.navbar{
+    background: #000000;
+    border-bottom: 1px solid #979797;
+}
+
+.navbar.sticky{
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.8s;
+}
+
+.fa-house{
+    color: #FFFFFF;
+}
+
+.fa-house.sticky{
+    color: #000000;
+}
+
+.container{
+    margin-top: 80px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    color: #d8d8d8;
+}
+
+p{
+    color: #ffffff;
+}
+
+img{
+    max-width: 200px;
+}
+
+.container:nth-child(3){
+    background: #000000;
+    border: 1px solid #5f5f5f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.container:nth-child(3) h1{
+    color: #cfcfcf;
+    font-size: 35px;
+}
+
+.container:nth-child(3):hover{
+    background-color: #0c0c0c;
+    transition: 0.4s;
+}
+
+.container:nth-child(3):hover h1{
+    color: #FFFFFF;
+}
+
+.container:nth-child(3):hover p{
+    color: #FFFFFF;
+}
+
+.container:nth-child(4){
+    margin-top: 30px;
+}
+
+.container:nth-child(5){
+    margin-top: 15px;
+}
+
+.fa-github{
+    font-size: 8rem;
+    color: #e0e0e0;
+}
+
+.fa-linkedin{
+    font-size: 8rem;
+    color: rgb(14, 14, 230);
+}
+
+.fa-envelope{
+    font-size: 8rem;
+    color: rgb(219, 32, 32);
+}
+
+.container:nth-child(6){
+    background: #db0000;
+    border-radius: 30px;
+}
+
+.container:nth-child(6) h3{
+    color: #FFFFFF;
+}
+
+.container:nth-child(7){
+    margin-top: 10px;
+}
+
+.container:nth-child(8){
+    margin-top: 10px;
+}
+
+.container:nth-child(8) h3{
+    color: red;
+}
+
+.container:nth-child(9){
+    margin-top: 10px;
+}
+
+.container:nth-child(9) h3{
+    color: blue;
+}
+
+.container:nth-child(10){
+    margin-top: 10px;
+}
+
+.container:nth-child(10){
+    background: #000000;
+    border: 1px solid #3b3b3b;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.container:nth-child(10) h4{
+    color: #FFFFFF;
+}
+
+.container:nth-child(11){
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
